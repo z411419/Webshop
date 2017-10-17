@@ -1,0 +1,103 @@
+body {
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3em;
+  color: #ebb00f;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.77);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav > ul > li > a {
+  display: block;
+  padding: 0 25px;
+  background: grey;
+  line-height: 60px;
+  height: 70px;
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: lightgray;
+}
+
+nav > ul > li:hover > a {
+  text-decoration: none;
+}
+
+h1 > a {
+  color: #ebb00f;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+h1 > a:hover {
+  color: #ebb00f;
+  text-decoration: none;
+}
+
+#logo {
+  height: 100px;
+  padding: 20px;
+}
+
+#winkelmand {
+  height: 50px;
+}
+
+#banner {
+  height: 300px;
+  background: lightgrey;
+  background: linear-gradient(135deg, rgba(226, 226, 226, 0) 41%, rgba(168, 168, 168, 0) 73%, rgba(142, 142, 142, 0.34) 87%, rgba(142, 142, 142, 0.65) 100%), url("../img/banner.jpg") no-repeat;
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#login {
+  padding: 15px;
+  height: 250px;
+}
+
+#search {
+  text-align: center;
+  padding: 15px;
+}
+
+nav.border {
+  background: rgba(94, 87, 87, 0.41);
+  border: 1px solid black;
+}
+
+header {
+  margin: 0 0 15px 0;
+}
+
+.black {
+  background: black;
+}
+
+.red {
+  color: darkred;
+}
+
+div ul li {
+  list-style: none;
+}
